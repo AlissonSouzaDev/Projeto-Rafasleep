@@ -16,7 +16,7 @@ function SimpleTabs() {
             <SimpleTable />
         </TabPanel>
         <TabPanel>
-            <p>Conteúdo da Tab 2</p>
+          <p>Conteúdo da Tab 2</p>
         </TabPanel>
         <TabPanel>
           <p>Conteúdo da Tab 3</p>
