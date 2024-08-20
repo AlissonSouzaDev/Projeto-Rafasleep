@@ -1,5 +1,6 @@
 import React from 'react';
 import { Tabs, TabList, TabPanels, Tab, TabPanel } from '@chakra-ui/react';
+import SimpleTable from '../table';
 
 function SimpleTabs() {
   return (
@@ -12,7 +13,7 @@ function SimpleTabs() {
 
       <TabPanels>
         <TabPanel>
-          <p>Conteúdo da Tab 1</p>
+            <SimpleTable />
         </TabPanel>
         <TabPanel>
           <p>Conteúdo da Tab 2</p>
