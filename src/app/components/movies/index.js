@@ -7,8 +7,6 @@ function PopularMovies() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
 
-  console.log('API Key:', process.env.NEXT_PUBLIC_TMDB_API_KEY);
-
   useEffect(() => {
     const fetchPopularMovies = async () => {
       try {
